@@ -12,6 +12,9 @@
 		3F779B132057BD1B0067B27C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F779B112057BD1B0067B27C /* Main.storyboard */; };
 		3F779B152057BD1B0067B27C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F779B142057BD1B0067B27C /* Assets.xcassets */; };
 		3F779B182057BD1B0067B27C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F779B162057BD1B0067B27C /* LaunchScreen.storyboard */; };
+		3F779B202057BF210067B27C /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F779B1F2057BF210067B27C /* Spot.swift */; };
+		3F779B222057C5CE0067B27C /* SpotTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F779B212057C5CE0067B27C /* SpotTableViewCell.swift */; };
+		3F779B2420582E800067B27C /* SpotDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F779B2320582E800067B27C /* SpotDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		3F779B142057BD1B0067B27C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F779B172057BD1B0067B27C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F779B192057BD1B0067B27C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F779B1F2057BF210067B27C /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
+		3F779B212057C5CE0067B27C /* SpotTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotTableViewCell.swift; sourceTree = "<group>"; };
+		3F779B2320582E800067B27C /* SpotDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 			children = (
 				3F779B0D2057BD1A0067B27C /* AppDelegate.swift */,
 				3F779B0F2057BD1B0067B27C /* ViewController.swift */,
+				3F779B212057C5CE0067B27C /* SpotTableViewCell.swift */,
 				3F779B112057BD1B0067B27C /* Main.storyboard */,
 				3F779B142057BD1B0067B27C /* Assets.xcassets */,
 				3F779B162057BD1B0067B27C /* LaunchScreen.storyboard */,
 				3F779B192057BD1B0067B27C /* Info.plist */,
+				3F779B1F2057BF210067B27C /* Spot.swift */,
+				3F779B2320582E800067B27C /* SpotDetailViewController.swift */,
 			);
 			path = TourSpotTW;
 			sourceTree = "<group>";
@@ -136,8 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F779B2420582E800067B27C /* SpotDetailViewController.swift in Sources */,
 				3F779B102057BD1B0067B27C /* ViewController.swift in Sources */,
+				3F779B202057BF210067B27C /* Spot.swift in Sources */,
 				3F779B0E2057BD1A0067B27C /* AppDelegate.swift in Sources */,
+				3F779B222057C5CE0067B27C /* SpotTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
